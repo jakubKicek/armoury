@@ -1,28 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import weapons from './weapons.json';
+import WeaponList from './WeaponList.js';
+
 
 class App extends Component {
-  render() {
+  
+    constructor(props){
+      super(props)
+      this.state = {
+          searchphrase: " ",
+      };
+//      weapons.forEach(w => {
+//        const wItem = <WeaponItem key={w.id} id={w.id} cost={w.cost} damage_dice={w.damage_dice} damage_type={w.damage_type} weight={w.weight} properties={w.properties}></WeaponItem>
+//        this.state.resultsList.push(wItem);
+    }  
+  
+//    filterResults(event){        
+//        weapons.forEach(w => {
+//        if(w.id.includes(event.target.value+'')){
+//            const wItem = <WeaponItem key={w.id} id={w.id} cost={w.cost} damage_dice={w.damage_dice} damage_type={w.damage_type} weight={w.weight} properties={w.properties}></WeaponItem>
+//            this.state.resultsList.push(wItem);
+//        }
+//    })
+//    }
+//    
+//    componentDidMount(){
+//              weapons.forEach(w => {
+//        const wItem = <WeaponItem key={w.id} id={w.id} cost={w.cost} damage_dice={w.damage_dice} damage_type={w.damage_type} weight={w.weight} properties={w.properties}></WeaponItem>
+//        this.state.resultsList.push(wItem);
+//    }) 
+//    }
+//    
+    
+    render(){
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <WeaponList items={weapons}></WeaponList>
       </div>
     );
   }
+
 }
 
 export default App;

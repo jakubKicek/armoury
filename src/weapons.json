@@ -1,0 +1,82 @@
+[
+    {
+        "id": "Club",
+        "cost": "1 sp",
+        "damage_dice": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb.",
+        "properties": "Light"
+    },
+    {
+        "id": "Dagger",
+        "cost": "2 gp",
+        "damage_dice": "1d4",
+        "damage_type": "piercing",
+        "weight": "1 lb.",
+        "properties": "Finesse, light, thrown (range 20/60)"
+    },
+    {
+        "id": "Greatclub",
+        "cost": "2 sp",
+        "damage_dice": "1d8",
+        "damage_type": "bludgeoning",
+        "weight": "10 lb.",
+        "properties": "Two-handed"
+    },
+    {
+        "id": "Handaxe",
+        "cost": "5 gp",
+        "damage_dice": "1d6",
+        "damage_type": "slashing",
+        "weight": "2 lb.",
+        "properties": "Light, thrown (range 20/60)"
+    },
+    {
+        "id": "Javelin",
+        "cost": "5 sp",
+        "damage_dice": "1d6",
+        "damage_type": "piercing",
+        "weight": "2 lb.",
+        "properties": "Thrown (range 30/120)"
+    },
+    {
+        "id": "Light Hammer",
+        "cost": "2 gp",
+        "damage_dice": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb.",
+        "properties": "Light, thrown (range 20/60)"
+    },
+    {
+        "id": "Mace",
+        "cost": "5 gp",
+        "damage_dice": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "4 lb.",
+        "properties": " - "
+    },
+    {
+        "id": "Quarterstaff",
+        "cost": "2 sp",
+        "damage_dice": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "4 lb.",
+        "properties": "Versatile (1d8)"
+    },
+    {
+        "id": "Sicle",
+        "cost": "1 gp",
+        "damage_dice": "1d4",
+        "damage_type": "slashing",
+        "weight": "2 lb.",
+        "properties": "Light"
+    },
+    {
+        "id": "Spear",
+        "cost": "1 gp",
+        "damage_dice": "1d6",
+        "damage_type": "piercing",
+        "weight": "3 lb.",
+        "properties": "Thrown (range 20/60), versatile (1d8)"
+    }
+]

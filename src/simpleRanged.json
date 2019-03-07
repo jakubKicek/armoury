@@ -5,7 +5,8 @@
         "damage_dice": "1d8",
         "damage_type": "piercing",
         "weight": "5 lb.",
-        "properties": "Ammunition (range 80/320), loading, two-handed"
+        "properties": "Ammunition (range 80/320), loading, two-handed",
+        "type": "simple ranged"
     },
     {
         "id": "Dart",
@@ -13,7 +14,8 @@
         "damage_dice": "1d4",
         "damage_type": "piercing",
         "weight": "1/4 lb.",
-        "properties": "Finesse, thrown (range 20/60)"
+        "properties": "Finesse, thrown (range 20/60)",
+        "type": "simple ranged"
     },
     {
         "id": "Shortbow",
@@ -21,7 +23,8 @@
         "damage_dice": "1d6",
         "damage_type": "piercing",
         "weight": "2 lb.",
-        "properties": "Ammunition (range 80/320), two-handed"
+        "properties": "Ammunition (range 80/320), two-handed",
+        "type": "simple ranged"
     },
     {
         "id": "Sling",
@@ -29,6 +32,7 @@
         "damage_dice": "1d4",
         "damage_type": "bludgeoning",
         "weight": " - ",
-        "properties": "Ammunition (range 30/120)"
+        "properties": "Ammunition (range 30/120)",
+        "type": "simple ranged"
     }
 ]

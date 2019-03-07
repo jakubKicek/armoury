@@ -5,7 +5,8 @@
         "damage_dice": "1d4",
         "damage_type": "bludgeoning",
         "weight": "2 lb.",
-        "properties": "Light"
+        "properties": "Light",
+        "type": "simple melee"
     },
     {
         "id": "Dagger",
@@ -13,7 +14,9 @@
         "damage_dice": "1d4",
         "damage_type": "piercing",
         "weight": "1 lb.",
-        "properties": "Finesse, light, thrown (range 20/60)"
+        "properties": "Finesse, light, thrown (range 20/60)",
+        "type": "simple melee"
+
     },
     {
         "id": "Greatclub",
@@ -21,7 +24,8 @@
         "damage_dice": "1d8",
         "damage_type": "bludgeoning",
         "weight": "10 lb.",
-        "properties": "Two-handed"
+        "properties": "Two-handed",
+        "type": "simple melee"
     },
     {
         "id": "Handaxe",
@@ -29,7 +33,8 @@
         "damage_dice": "1d6",
         "damage_type": "slashing",
         "weight": "2 lb.",
-        "properties": "Light, thrown (range 20/60)"
+        "properties": "Light, thrown (range 20/60)",
+        "type": "simple melee"
     },
     {
         "id": "Javelin",
@@ -37,7 +42,8 @@
         "damage_dice": "1d6",
         "damage_type": "piercing",
         "weight": "2 lb.",
-        "properties": "Thrown (range 30/120)"
+        "properties": "Thrown (range 30/120)",
+        "type": "simple melee"
     },
     {
         "id": "Light Hammer",
@@ -45,7 +51,8 @@
         "damage_dice": "1d4",
         "damage_type": "bludgeoning",
         "weight": "2 lb.",
-        "properties": "Light, thrown (range 20/60)"
+        "properties": "Light, thrown (range 20/60)",
+        "type": "simple melee"
     },
     {
         "id": "Mace",
@@ -53,7 +60,8 @@
         "damage_dice": "1d6",
         "damage_type": "bludgeoning",
         "weight": "4 lb.",
-        "properties": " - "
+        "properties": " - ",
+        "type": "simple melee"
     },
     {
         "id": "Quarterstaff",
@@ -61,7 +69,8 @@
         "damage_dice": "1d6",
         "damage_type": "bludgeoning",
         "weight": "4 lb.",
-        "properties": "Versatile (1d8)"
+        "properties": "Versatile (1d8)",
+        "type": "simple melee"
     },
     {
         "id": "Sicle",
@@ -69,7 +78,8 @@
         "damage_dice": "1d4",
         "damage_type": "slashing",
         "weight": "2 lb.",
-        "properties": "Light"
+        "properties": "Light",
+        "type": "simple melee"
     },
     {
         "id": "Spear",
@@ -77,6 +87,7 @@
         "damage_dice": "1d6",
         "damage_type": "piercing",
         "weight": "3 lb.",
-        "properties": "Thrown (range 20/60), versatile (1d8)"
+        "properties": "Thrown (range 20/60), versatile (1d8)",
+        "type": "simple melee"
     }
 ]
